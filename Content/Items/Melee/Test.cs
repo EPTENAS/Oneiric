@@ -10,6 +10,7 @@ namespace Oneiric.Content.Items.Melee
         public override void SetDefaults()
         {
             Item.damage = 50;
+            Item.crit = 100;
             Item.DamageType = DamageClass.Melee;
             Item.width = 40;
             Item.height = 40;

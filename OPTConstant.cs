@@ -1,7 +1,7 @@
 ﻿namespace Oneiric
 {
     /// <summary>
-    /// Asset资产调用
+    /// Asset常量资产调用
     /// </summary>
     public static class OPTConstant
     {
