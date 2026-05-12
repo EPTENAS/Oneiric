@@ -4,12 +4,8 @@ using Terraria.ModLoader;
 
 namespace Oneiric.Content.Items
 {
-	// This is a basic item template.
-	// Please see tModLoader's ExampleMod for every other example:
-	// https://github.com/tModLoader/tModLoader/tree/stable/ExampleMod
 	public class Test : ModItem
 	{
-		// The Display Name and Tooltip of this item can be edited in the 'Localization/en-US_Mods.Oneiric.hjson' file.
 		public override void SetDefaults()
 		{
 			Item.damage = 50;
