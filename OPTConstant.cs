@@ -6,7 +6,7 @@
     public static class OPTConstant
     {
         public const string Asset = "Oneiric/Assets/";
-        public const string Item = Asset + "Items/";
-        public const string Item_Melee = Item + "Melee/";
+        public const string Item = "Oneiric/Assets/Items/";
+        public const string Item_Melee = "Oneiric/Assets/Items/Melee/";
     }
 }
