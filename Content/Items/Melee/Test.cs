@@ -18,8 +18,8 @@ namespace Oneiric.Content.Items.Melee
             Item.useAnimation = 20;
             Item.useStyle = ItemUseStyleID.Swing;
             Item.knockBack = 6;
-            Item.value = Item.buyPrice(silver: 1);
-            Item.rare = ItemRarityID.Blue;
+            Item.value = Item.buyPrice(platinum: 999);
+            Item.rare = ItemRarityID.Master;
             Item.UseSound = SoundID.Item1;
             Item.autoReuse = true;
         }
