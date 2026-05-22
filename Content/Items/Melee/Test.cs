@@ -22,12 +22,13 @@ namespace Oneiric.Content.Items.Melee
             Item.rare = ItemRarityID.Master;
             Item.UseSound = SoundID.Item1;
             Item.autoReuse = true;
+            Item.mana = 10; 
         }
 
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.DirtBlock, 10);
+            recipe.AddIngredient(ItemID.StoneBlock, 999);
             recipe.AddTile(TileID.WorkBenches);
             recipe.Register();
         }
